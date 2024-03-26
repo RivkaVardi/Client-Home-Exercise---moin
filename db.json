@@ -1,0 +1,37 @@
+{
+    "users": [
+        {"id": 1, "userName": "user01", "departmentId": 1},
+        {"id": 2, "userName": "user02", "departmentId": 1},
+        {"id": 3, "userName": "user03", "departmentId": 1},
+        {"id": 4, "userName": "user04", "departmentId": 1},
+        {"id": 5, "userName": "user05", "departmentId": 1},
+        {"id": 6, "userName": "user06", "departmentId": 1},
+        {"id": 7, "userName": "user07", "departmentId": 1},
+        {"id": 8, "userName": "user08", "departmentId": 2},
+        {"id": 9, "userName": "user09", "departmentId": 2},
+        {"id": 10, "userName": "user10", "departmentId": 2},
+        {"id": 11, "userName": "user11", "departmentId": 3},
+        {"id": 12, "userName": "user12", "departmentId": 3},
+        {"id": 13, "userName": "user13", "departmentId": 3},
+        {"id": 14, "userName": "user14", "departmentId": 3},
+        {"id": 15, "userName": "user15", "departmentId": 3},
+        {"id": 16, "userName": "user16", "departmentId": 4},
+        {"id": 17, "userName": "user17", "departmentId": 4},
+        {"id": 18, "userName": "user18", "departmentId": 4},
+        {"id": 19, "userName": "user19", "departmentId": 4},
+        {"id": 20, "userName": "user20", "departmentId": 5}
+    ],
+
+    "departments": [
+        {"id": 1, "departmentName": "department01", "officeId": 1},
+        {"id": 2, "departmentName": "department02", "officeId": 1},
+        {"id": 3, "departmentName": "department03", "officeId": 1},
+        {"id": 4, "departmentName": "department04", "officeId": 2},
+        {"id": 5, "departmentName": "department05", "officeId": 2}
+    ],
+
+    "offices": [
+        {"id": 1, "officeName": "office01"},
+        {"id": 2, "officeName": "office02"}
+    ]
+}

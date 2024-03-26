@@ -1,0 +1,12 @@
+<!-- בסיעתא דשמיא -->
+
+<form [formGroup]="searchForm" (ngSubmit)="search()">
+    <div *ngIf="offices.length && departments.length && users.length">
+        <app-field [control]="searchForm.controls['office']" [options]="officesOptions" [label]="'office'"
+            (valueChanged)="onOfficeChange($event)"></app-field>
+        <app-field [control]="searchForm.controls['department']" [options]="departmentsOptions" [label]="'department'"
+            (valueChanged)="onDepartmentChange($event)"></app-field>
+        <app-field [control]="searchForm.controls['user']" [options]="usersOptions" [label]="'user'"></app-field>
+    </div>
+    <button mat-raised-button type="submit" [disabled]="searchForm.pristine">search</button>
+</form>
